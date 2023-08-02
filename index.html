@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title> Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+  <section id="contenedor" class="contenedor">
+
+
+    <div id="left-container" class="left">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.</p>
+    </div>
+
+
+
+    <div id="right-container" class="right">
+      <div class="right-up">
+        <p>Try it free 7 days then $20/mo. thereafter</p>
+      </div>
+      <div class="right-center">
+        <div class="user">
+
+
+          <form id="form"> 
+            <input class="active" type="text" name="name" id="first-name" placeholder="First Name">
+            <div id="form-error" class="form-error inactive">First name cannot be empty</div>
+            <input class="active" type="text" name="apellido" id="second-name" placeholder="Second Name">
+            <div id="form-error" class="form-error inactive">Second name cannot be empty</div>
+            <input class="active" type="text" name="email" id="email" placeholder="Correo Electronico">
+            <div id="form-error" class="form-error inactive">Email cannot be empty</div>
+            <input class="active" type="password" name="password" id="password" placeholder="Password">
+            <div id="form-error" class="form-error inactive">Password cannot be empty</div>
+            <button id="btn" type="submit">CLAIM YOUR FREE TRIAL</button>
+          </form>
+
+        </div>
+        <p class="p-last">By clicking the button, you are agreeing to our <a href="/">Terms and Services</a></p>
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+
+  <script src="./main.js"></script>
+  
+  
+</body>
+</html>
