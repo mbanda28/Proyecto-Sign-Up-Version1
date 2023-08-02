@@ -126,6 +126,7 @@ body {
     height: 42px;
     border-radius: 10px;
     box-shadow: 0 6px 2px rgb(199, 199, 199);
+    color: white;
 }
 #btn:hover{
     cursor: pointer;
